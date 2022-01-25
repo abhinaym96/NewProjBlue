@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyMavenPro">
+<listeners>
+	<listener class-name="com.qateam.utilies.MyListerners"></listener>
+</listeners>
+    <test name="RegressionSuite">
+	<parameter name="browser" value="Brave"></parameter>
+         <classes>
+			 <class name="com.qateam.testcases.TestClass"/>
+
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
